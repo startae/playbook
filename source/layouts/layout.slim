@@ -1,0 +1,15 @@
+doctype html
+html lang="#{I18n.locale}"
+  head
+    = partial '/shared/head'
+  body class="#{page_classes}" data-id="#{get_page_priority(current_page.data)}"
+    = partial '/shared/sidebar'
+    .row
+      .cell.well
+        main.content
+          = partial '/shared/toggle'
+          article
+            = find_and_preserve do
+              = yield
+          = partial '/shared/pager'
+    = partial '/shared/body-bottom'

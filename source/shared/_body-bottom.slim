@@ -1,0 +1,13 @@
+= partial '/shared/analytics'
+= javascript_include_tag 'requirements'
+= javascript_include_tag 'application'
+
+/[if lt IE 9]
+  = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/nwmatcher/1.3.6/nwmatcher.min.js'
+  = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js'
+
+script(data-no-instant)
+  | InstantClick.init();
+
+/!
+  ¯\_(ツ)_/¯

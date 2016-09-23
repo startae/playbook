@@ -1,0 +1,15 @@
+{
+  "name": "startae-playbook",
+  "version": "0.0.0",
+  "private": "true",
+  "authors": [
+    "Startaê <http://www.startae.com.br>"
+  ],
+  "dependencies": {
+    "fastclick": "~1.0.6",
+    "instantclick": "~3.1.0",
+    "jquery": "~2.1.4",
+    "layzr.js": "~1.4.3",
+    "svg-injector": "~1.1.3"
+  }
+}

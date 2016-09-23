@@ -1,0 +1,100 @@
+// *************************************
+//
+//   Config
+//   -> Override Fonts, Variables
+//
+// *************************************
+
+$sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+$serif: Georgia, Cambria, "Times New Roman", Times, serif
+$monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace
+
+
+.wf-loading
+  visibility: hidden
+
+.wf-active
+  visibility: visible
+
+// -------------------------------------
+//   Colors
+// -------------------------------------
+
+// ----- Base ----- //
+
+$c-base-dark: #000
+$c-background-invert: #fff
+$c-background: #fff
+$c-highlight: #4e4e5b
+$c-secondary: lighten(#4e4e5b, 40%)
+$c-subdue: lighten(#4e4e5b, 40%)
+$c-text-invert: #fff
+$c-text: #111
+
+$c-purple:  #5d1eb2
+$c-red:     #ff223e
+$c-orange:  #ff7300
+$c-black:   #000
+$c-white:   #FFF
+
+// ----- Structures ----- //
+
+// Header
+
+$header-background: $c-base-dark
+$header-title-link-color: $c-text-invert
+$header-title-link-hover-color: $c-subdue
+
+// Sidebar
+
+$sidebar-background: $c-base-dark
+$sidebar-label-color: $c-background
+$sidebar-label-border-bottom: lighten($c-base-dark, 3%)
+$sidebar-link-active-background: $c-background
+$sidebar-link-active-color: $c-text
+$sidebar-link-hover-background: $c-purple
+$sidebar-link-hover-color: $c-text-invert
+$sidebar-nav-sub-background: lighten($c-base-dark, 3%)
+
+// -------------------------------------
+//   Base
+// -------------------------------------
+
+// ----- Typography ----- //
+
+$b-fontFamily-heading: "soleil", $sans-serif
+$b-fontFamily-mono: Courier, monospace !default
+$b-fontFamily: "stevie-sans", $serif
+$b-fontSize: 20px !default
+$b-fontSize-xs: 60% !default
+$b-fontSize-s: 75% !default
+$b-fontSize-m: 90% !default
+$b-fontSize-l: 115% !default
+$b-fontSize-xl: 150% !default
+$b-lineHeight: 1.6 !default
+
+
+
+// ----- Sizing ----- //
+
+$b-maxWidth: 44.875em
+
+// ----- Breakpoints ----- //
+
+$breakpoint-desk: 68.75em
+$breakpoint-tablet: 50em
+
+// -------------------------------------
+//   Structures
+// -------------------------------------
+
+// ----- Header ----- //
+
+$header-height: auto
+
+// ----- Sidebar ----- //
+
+$sidebar-collapsible: false
+$sidebar-label-letterSpacing: 0.1em
+$sidebar-link-fontSize: 85%
+$sidebar-width: 15.1875em

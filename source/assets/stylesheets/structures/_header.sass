@@ -1,0 +1,58 @@
+// *************************************
+//
+//   Header
+//   -> Top bar
+//
+// -------------------------------------
+//   Template (Haml)
+// -------------------------------------
+//
+// %header.header
+//   %h1.header-title Title
+//
+// *************************************
+
+.header
+  @extend .boxSizing
+  height: $header-height
+  padding: $b-space
+  position: relative
+  text-align: center
+
+// -------------------------------------
+//   Scaffolding
+// -------------------------------------
+
+// ----- Logo ----- //
+
+.header-logo
+  background: none
+  border-radius: 0
+  box-shadow: none
+  display: block
+  padding: 0
+  position: static
+  text-align: center
+  margin: 0 auto
+
+// ----- Title ----- //
+
+.header-title
+  margin: 0
+  text-transform: uppercase
+  font-size: 20px
+
+  > a
+    border: 0
+    color: $header-title-link-color
+    &:hover,
+    &:focus
+      color: $header-title-link-hover-color
+
+// ----- Version ----- //
+
+.header-version
+  color: $c-subdue
+  font-weight: 300
+  margin-bottom: 0
+
