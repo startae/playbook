@@ -1,10 +1,10 @@
 ---
-title: Writting
+title: Writing
 type: page
 children: true
 ---
 
-# Writting
+# Writing
 
 Like Design, text is more than a sum of its words.
 

@@ -2,7 +2,7 @@
 title: The Questions
 type: page
 nested: true
-parent: Writting
+parent: Writing
 ---
 
 # The Questions

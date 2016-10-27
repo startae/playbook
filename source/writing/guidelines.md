@@ -2,7 +2,7 @@
 title: Guidelines
 type: page
 nested: true
-parent: Writting
+parent: Writing
 ---
 
 # Guidelines

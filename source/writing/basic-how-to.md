@@ -2,7 +2,7 @@
 title: Basic how-to
 type: page
 nested: true
-parent: Writting
+parent: Writing
 ---
 
 # Basic how-to
