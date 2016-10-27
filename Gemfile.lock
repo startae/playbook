@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     activesupport (4.2.7.1)
       i18n (~> 0.7)
@@ -173,4 +173,4 @@ RUBY VERSION
    ruby 2.2.5p319
 
 BUNDLED WITH
-   1.13.1
+   1.13.6
