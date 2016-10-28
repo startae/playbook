@@ -4,7 +4,7 @@
 
 # jQuery
 # -------------------------------------
-#= require jquery/dist/jquery
+#= require jquery/dist/jquery.slim
 
 # FastClick
 # github.com/ftlabs/fastclick
@@ -15,16 +15,6 @@
 # github.com/dieulot/instantclick
 # -------------------------------------
 #= require instantclick/instantclick
-
-# SVGInjector
-# github.com/iconic/SVGInjector
-# -------------------------------------
-#= require svg-injector/dist/svg-injector.min
-
-# Layzr.js
-# github.com/callmecavs/layzr.js
-# -------------------------------------
-#= require layzr.js/dist/layzr
 
 # particles.js
 # http://vincentgarreau.com/particles.js/
