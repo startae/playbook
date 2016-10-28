@@ -29,10 +29,10 @@
   "_release": "1.4.3",
   "_resolution": {
     "type": "version",
-    "tag": "1.4.3",
-    "commit": "8a6a958adc2705895fa583db3e3f9881a42653c3"
+    "tag": "v1.4.3",
+    "commit": "5266f94cc345620c19680c82c72f0d4d33ea77c4"
   },
-  "_source": "git://github.com/callmecavs/layzr.js.git",
-  "_target": "~1.4.3",
+  "_source": "https://github.com/callmecavs/layzr.js.git",
+  "_target": "1.4.3",
   "_originalSource": "layzr.js"
 }

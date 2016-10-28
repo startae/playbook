@@ -1,11 +1,17 @@
 source 'https://rubygems.org'
-ruby '2.2.5'
+
+# Specify Ruby version on Gemfile for Heroku
+# Will get the Ruby version from `.ruby-version` file
+ruby File.open('.ruby-version', 'rb') { |f| f.read.chomp }
 
 # HTTP server for Ruby/Rack recommended by Heroku
-gem 'puma', '3.6.0'
+gem 'puma', '3.4.0'
 
 # Middleman
-gem 'middleman', '3.4.1'
+gem 'middleman', '4.1.10'
+
+# Middleman Sprockets
+gem "middleman-sprockets", "4.1.0"
 
 # Middleman LiveReload
 gem 'middleman-livereload', '3.4.6'
@@ -24,8 +30,6 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 # Precompilers
 gem 'slim', '3.0.7'
-gem 'sassc', '1.9'
-gem 'compass', '1.0.3'
 gem 'coffee-script', '2.4.1'
 
 # Code syntax highlighting

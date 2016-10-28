@@ -1,7 +1,5 @@
 - if get_page(get_page_priority(current_page.data) - 1)
-
   ul.pager
-
     - if get_page(get_page_priority(current_page.data) - 1)
       - get_page(get_page_priority(current_page.data) - 1).each do |p|
         li.pager-item
@@ -13,4 +11,3 @@
         li.pager-item
           = link_to "/#{p.path}" do
             | Next page &rarr;
-
