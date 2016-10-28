@@ -7,17 +7,17 @@ parent: How things work here
 
 # The Wired State
 
-Quando você passa um bom tempo trabalhando sem ser interrompido, você consegue foco total no que está fazendo (É o famoso _ficar wired_ ou _in the zone_ aqui no Startaê). Esse é o momento onde você é mais produtivo. É quando sua mente para de ficar pensando em várias tarefas. É quando você não é interrompido para responder a uma pergunta ou para procurar algo ou para enviar um email. Ficar _wired_ é o estado perfeito para fazer as coisas acontecerem, é onde o progresso real acontece.
+When you have a long working session without any interruption, you achieve a state of total focus on what you are working on (we call it _in the zone_). That's the moment you are most productive. It's when your mind stops thinking about other tasks, it's when you don't stop to answer a question or check your phone. To stay _wired_, is to be in the perfect state to make things happen and where the real progress happens.
 
 [Watch this](https://www.youtube.com/watch?v=4c0lk-LtLI0&focus_loaded=1)
 
-Ficar _wired_ leva tempo. E é por isso que a interrupção é seu inimigo. É como o sono profundo (R.E.M.) - você não vai direto ao sono profundo, você vai dormir primeiro e progressivamente chega ao sono profundo. Qualquer interrupção vai te forçar a começar de novo. No R.E.M. é onde a mágica do sono verdadeiramente acontece. E no modo _wired_ é onde a mágica de ser produtivo acontece.
+To stay _wired_ takes time. That's why the interruption is your enemy. It's like deep sleeping (R.E.M) - you don't go straight to it, you will sleep first and you will progressively reach it. Any interruption will make you start over. In R.E.M, it's where the real magic of the sleep happens. Likewise, on _wired mode_ is where the real magic of productivity happens.
 
 ---
 
-Então, temos algumas regrinhas para sermos mais produtivos.
+We've come up with a few rules to help in reaching this state:
 
-- **Headphones On = Person is Wired:** Se a pessoa estiver com fone de ouvido, significa que ela está _wired_. Espere ela dar um break no pomodoro dela para chamá-la.
-- **Comunicação assíncrona:** Temos uma série de ferramentas para nos ajudar na comunicação assíncrona. É importante utilizarmos ela para que não exista interrupções a todo momento e também para que pessoas em fuso-horários diferentes não percam informações do que está rolando.
+- **Headphones On = Person is Wired:** if someone is wearing their headphones, it means they are _wired_. Wait for a pause in their pomodoro before calling them.
+- **Async Communication:** we have a series of tools to help us with async communication. They help us a lot with preventing interruptions and besides that they help people on different time zones to stay aware of what's going on.
 
 > People need uninterrupted time to get things done.
