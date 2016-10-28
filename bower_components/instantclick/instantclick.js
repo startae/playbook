@@ -537,7 +537,7 @@ var InstantClick = function(document, location) {
 
       var style = document.createElement('style')
       style.innerHTML = '#instantclick{position:' + ($hasTouch ? 'absolute' : 'fixed') + ';top:0;left:0;width:100%;pointer-events:none;z-index:2147483647;' + transitionProperty + ':opacity .25s .1s}'
-        + '.instantclick-bar{background:#34c35f;width:100%;margin-left:-100%;height:2px;' + transitionProperty + ':all .25s}'
+        + '.instantclick-bar{background:#29d;width:100%;margin-left:-100%;height:2px;' + transitionProperty + ':all .25s}'
       /* We set the bar's background in `.instantclick-bar` so that it can be
          overriden in CSS with `#instantclick-bar`, as IDs have higher priority.
       */
