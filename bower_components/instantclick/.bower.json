@@ -16,7 +16,7 @@
     "tag": "v3.1.0",
     "commit": "4ffd511b034f7c71eb989c236339ac12bbb00d69"
   },
-  "_source": "git://github.com/dieulot/instantclick.git",
-  "_target": "~3.1.0",
+  "_source": "https://github.com/dieulot/instantclick.git",
+  "_target": "3.1.0",
   "_originalSource": "instantclick"
 }
