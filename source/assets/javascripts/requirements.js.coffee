@@ -30,5 +30,3 @@
 # http://vincentgarreau.com/particles.js/
 # -------------------------------------
 #= require particles.js/particles
-
-#= require components/_components.particles
