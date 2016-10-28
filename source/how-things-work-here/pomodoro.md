@@ -7,24 +7,24 @@ parent: How things work here
 
 # The Pomodoro Technique
 
-A Técnica Pomodoro é um método de gerenciamento de tempo. A técnica foi desenvolvida no final dos anos 80 por Francesco Cirillo, que procurava uma maneira de aumentar sua produtividade nos estudos.
+The Pomodoro Technique is a time management method. It was developed on late 80's by Francesco Cirillo, which was looking for a way to increase his productivity on studying.
 
-Na prática, a Técnica Pomodoro consiste em trabalhar por blocos de tempo, chamados de pomodoro. Cada pomodoro tem 25 minutos, durante os quais você tem que trabalhar em uma única tarefa, sem interrupções. No fim de cada pomodoro, você deve fazer uma pausa de 5 minutos (short break). A cada quatro pomodoros, você deve fazer uma pausa maior (long break), de 30 minutos.
+In practice, it consists in divide your work in blocks of time, called Pomodoro. Each Pomodoro has a 25-minute duration, which you have to work on a single task, without interruptions. At the end of this block, you will have a 5-minute break. Once you have completed four Pomodoros, you can take a longer break. 20 minutes is good. Or 30.
 
-**Os objetivos da técnica são**
+**The Technique's objectives are**
 
-- Aumentar sua concentração
-- Aumentar sua produtividade
-- Diminuir as interrupções
-- Aprender quanto tempo você demora em cada tarefa
-- Aliviar sua ansiedade
+- Increase your concentration
+- Increase your productivity
+- Cut down on interruptions
+- Estimate the effort for activities
+- Relieve your anxiety
 
-**São somente cinco os passos básicos para implementar essa técnica**
+**There are 5 simple fundamentals of the Pomodoro Technique to make it work effectively.**
 
-- Escolher a tarefa a ser executada
-- Ajustar o pomodoro (alarme) para 25 minutos
-- Trabalhar na tarefa até que o alarme toque; registrar com um "x"
-- Fazer uma pausa curta (5 minutos)
-- A cada quatro "pomodoros" fazer uma pausa mais longa (15-30 minutos)
+- Choose a task you'd like to get done
+- Set The Pomodoro for 25 minutes
+- Work on the task until The Pomodoro rings; put a checkmark on a paper
+- Take a short break (5 minutes)
+- Every 4 Pomodoros, take a longer break (15-30 Minutes)
 
 [Read more about the Pomodoro Technique](http://pomodorotechnique.com/)
