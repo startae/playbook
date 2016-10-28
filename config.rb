@@ -1,71 +1,80 @@
-activate :automatic_image_sizes
-activate :directory_indexes
-activate :livereload
-activate :syntax
+# View Middleman configurations:
+# http://localhost:4567/__middleman/config/
 
-set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :smartypants => true
-set :relative_links, true
+# Site Settings
+# ----------------------------------------------
+@url = "http://playbook.startae.com"
 
-# Methods defined in the helpers block are available in templates
-helpers do
-  def get_page_priority(page)
-    unless page.nested?
-      data.priority.index(page.title) || data.priority.length
-    else
-      data.priority.index("#{ page.parent } - #{ page.title }") || data.priority.length
-    end
-  end
+# Slim HTML
+# ----------------------------------------------
+::Slim::Engine.set_options :format  => :html
 
-  def get_pages
-    sitemap.resources.select { |resource| resource.data.type == 'page' }
-      .sort_by { |r| get_page_priority(r.data) }
-  end
+# i18n
+# ----------------------------------------------
+activate :i18n, :mount_at_root => :'en-US'
 
-  def get_secondary_pages
-    sitemap.resources.select { |resource| resource.data.type == 'page' and resource.data.secondary? }
-      .sort_by { |r| get_page_priority(r.data) }
-  end
-
-  def get_page(priority)
-    sitemap.resources.select { |resource| resource.data.type == 'page' and get_page_priority(resource.data) == priority }
-  end
-
-  def get_nested_pages(title)
-    sitemap.resources.select { |resource| resource.data.type == 'page' and resource.data.nested == true and resource.data.parent == title }
-      .sort_by { |r| get_page_priority(r.data) }
-  end
-
-  def is_excluded_page(page)
-    page.data.nested? or page.data.children? or page.data.secondary?
-  end
-
-  def is_page_active(page)
-    current_page.url == page
-  end
-
-  def is_parent_page_active(page)
-    current_page.url.match(page)
-  end
+# Livereload
+# ----------------------------------------------
+configure :development do
+  activate :livereload, :no_swf => true
 end
 
-# ====================================
-#   After Configuration
-# ====================================
+# Bower Config
+# ----------------------------------------------
+activate :sprockets
+@bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+@bower_assets_path = File.join "#{root}", @bower_config["directory"]
+sprockets.append_path @bower_assets_path
 
-after_configuration do
-  @bower_config = JSON.parse( IO.read( "#{ root }/.bowerrc" ) )
-  sprockets.append_path File.join root.to_s, @bower_config['directory']
-end
-
+# Configure assets directories
+# ----------------------------------------------
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 set :fonts_dir, 'assets/fonts'
 
+# Other configurations
+# ----------------------------------------------
+set :trailing_slash, false
+
+# Sitemap Builder
+page "/sitemap.xml", :layout => false
+
+# Development-specific configuration
+# ----------------------------------------------
+configure :development do
+  activate :directory_indexes
+
+  set :debug_assets, true
+
+  # Output a pretty html
+  ::Slim::Engine.set_options :pretty => true
+
+  # Activate autoprefixer
+  activate :autoprefixer
+end
+
 # Build-specific configuration
+# ----------------------------------------------
 configure :build do
+  # Use relative URLs
+  activate :directory_indexes
+
+  # Activate gzip
+  activate :gzip
+
+  # Minify CSS on build
   activate :minify_css
+
+  # Minify Javascript on build
   activate :minify_javascript
-  activate :relative_assets
+
+  # Add asset fingerprinting to avoid cache issues
+  activate :asset_hash
+
+  # Enable cache buster
+  activate :cache_buster
+
+  # Activate autoprefixer
+  activate :autoprefixer
 end
