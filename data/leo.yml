@@ -1,2 +1,8 @@
 title: Startaê Playbook
-reading_time: false
+author: Startaê
+
+# If you don't want the read times listed under each page header, set to false.
+reading_time: true
+
+# If the remote version is in a subdirectory, specify it here. Otherwise, leave blank.
+subdirectory: ''
