@@ -1,10 +1,6 @@
 # View Middleman configurations:
 # http://localhost:4567/__middleman/config/
 
-# Site Settings
-# ----------------------------------------------
-@url = "http://playbook.startae.com"
-
 # Slim HTML
 # ----------------------------------------------
 ::Slim::Engine.set_options :format  => :html
@@ -71,9 +67,6 @@ configure :build do
 
   # Add asset fingerprinting to avoid cache issues
   activate :asset_hash
-
-  # Enable cache buster
-  activate :cache_buster
 
   # Activate autoprefixer
   activate :autoprefixer
