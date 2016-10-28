@@ -8,30 +8,30 @@ children: true
 
 ### The schedule
 
-Cada um é responsável por decidir suas tarefas da semana e quando fazê-las. Então não importa que horas você começa/termina de trabalhar, que horas você vem para o escritório ou até se vem para o escritório. Todos tem a consciência de que o seu trabalho impacta o resultado do time não importa a hora (: Tamo junto!
+Each member of the team is responsible for deciding their weekly tasks and when to do them. So no matter what time you start/finish work, what time you come to the office or even if you come to the office. Everyone is aware that their work impacts the result of the team and no matter the time.
 
 ### Bermudism
 
-No Startaê somos adeptos ao bermudismo. Acreditamos todos devem estar confortáveis para trabalhar da maneira que acharem melhor e que a sua roupa não vai afetar na sua produtividade.
+We are adept of bermudism at Startaê. We believe everyone should be comfortable to work the way they feel more comfortable and that your clothes will not affect your productivity.
 
-Gostamos de manter um ambiente informal e acreditamos que isso deixa nosso time mais a vontade e unido.
+We like to keep an informal environment and we believe that it makes our team more comfortable and united.
 
-[Saiba mais sobre o Bermudismo](http://www.bermudamanifesto.org/)
+[Know more about Bermudism (Portuguese only)](http://www.bermudamanifesto.org/)
 
 ### Daily SUPs
 
-Todo dia você vai ter uma reunião rápida com o time do projeto que estiver trabalhando. Essa reunião é chamada de Stand-up Meeting ou para os mais íntimos SUP.
+We have a quick meeting with the project team that is working every day. This meeting is called Stand-up Meeting (a.k.a SUP).
 
-As reuniões são rápidas, geralmente tem um timebox para entre 5 e 15 minutos, e acontecem com os participantes em pé para lembrar as pessoas a manter a reunião curto e direto ao ponto.
+Meetings are quick. Usually, it has a timebox for 5 to 15 minutes, and it happens with participants standing to remind them to go straight to the point.
 
-Nela você compartilha com o resto do time o que trabalhou no dia, quais tarefas ou quais partes, quais foram seus principais insights ou problemas e quais são as próximas tarefas que você pretende fazer. E todos os outros membros do time fazem o mesmo.
+It's a moment to share with the rest of the team which tasks you worked on, what is the main insights or problems and what is the next task you intend to do. And all the other team members do the same.
 
-Assim, o time sempre se mantem alinhado sobre o que está acontecendo durante o projeto (:
+This way, the team always keeps synced about what is happening during the project.
 
 ### Weekly Projects SUPs
 
-Uma vez por semana, toda segunda-feira, o time inteiro se reúne para a SUP (Stand-up Meeting) de projetos. Ela é parecida com a SUP diária mas nessa todos os times de projeto aprensentam o progresso do seu projeto na semana anterior e o que pretendem fazer naquela semana para o resto do time do Startaê.
+Once a week, on Monday, the entire team attend to the Projects SUP. It is similar to the daily SUP but that all project teams present their progress in the previous week and what they intend to do that week.
 
 ### Friday
 
-A sexta-feira é um dia que dedicamos ao time do Startaê. Na sexta-feira não trabalhamos nos projetos dos nossos clientes. É um dia focado em projetos internos, troca de conhecimento e desenvolvimento do time.
+Friday is a day dedicated to Startaê team. On Fridays, we don't work on our customers' projects. It is a day  focused on internal projects, exchange of knowledge and team development.
