@@ -1,11 +1,10 @@
 ---
-title: Tools
+title: Project Management
 type: page
 nested: true
 parent: How things work here
 ---
-
-# Tools
+# Project Management
 
 ## Flow
 
