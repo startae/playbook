@@ -1,6 +1,7 @@
 ---
 title: The Playbook
 type: page
+children: true
 ---
 
 # Welcome to our Playbook
