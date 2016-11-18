@@ -1,11 +1,11 @@
 ---
-title: The Questions
+title: Guiding Questions
 type: page
 nested: true
 parent: Writing
 ---
 
-# The Questions
+# Guiding Questions
 
 Here are some questions to consider when you're writing:
 
