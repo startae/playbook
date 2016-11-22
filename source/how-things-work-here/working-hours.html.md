@@ -1,5 +1,5 @@
 ---
-title: The Schedule
+title: Working hours
 type: page
 nested: true
 parent: How things work here
