@@ -1,5 +1,5 @@
 ---
-title: The Four Filters
+title: Our Guidelines
 type: page
 nested: true
 parent: Culture

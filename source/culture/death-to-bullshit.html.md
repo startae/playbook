@@ -2,7 +2,7 @@
 title: Death to Bullshit
 type: page
 nested: true
-parent: How things work here
+parent: Culture
 ---
 
 # Death to Bullshit

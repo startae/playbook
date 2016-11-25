@@ -1,11 +1,11 @@
 ---
-title: Tools
+title: Development
 type: page
 nested: true
-parent: Development
+parent: Tools
 ---
 
-# Tools
+# Development
 
 ## Github
 

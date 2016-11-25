@@ -84,7 +84,11 @@ module CustomHelpers
   #
   #   = link_to 'Home', '/', class: ( 'is-active' if is_parent_page_active('/') )
   #
-  def is_parent_page_active(page)
-    current_page.url.match(page)
+  def is_parent_page_active(url, title)
+    if current_page.data.parent.present?
+      current_page.data.parent == title
+    else
+      current_page.url.match(url)
+    end
   end
 end

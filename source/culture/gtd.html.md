@@ -1,8 +1,8 @@
 ---
-title: Get Things Done
+title: Get Things Done Mindset
 type: page
 nested: true
-parent: How things work here
+parent: Culture
 ---
 
 # GTD - Getting Things Done

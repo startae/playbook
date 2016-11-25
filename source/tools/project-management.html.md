@@ -2,7 +2,7 @@
 title: Project Management
 type: page
 nested: true
-parent: How things work here
+parent: Tools
 ---
 # Project Management
 

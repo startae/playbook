@@ -1,11 +1,11 @@
 ---
-title: Tools
+title: Design
 type: page
 nested: true
-parent: Design
+parent: Tools
 ---
 
-# Tools
+# Design
 
 We use these tools below to support our necessities during the sprints:
 
