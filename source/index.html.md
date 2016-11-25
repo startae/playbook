@@ -1,7 +1,6 @@
 ---
 title: The Startaê Playbook
 type: page
-children: true
 ---
 
 # The Startaê Playbook
