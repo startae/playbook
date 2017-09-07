@@ -8,7 +8,7 @@ ruby File.open('.ruby-version', 'rb') { |f| f.read.chomp }
 gem 'puma', '= 3.10.0'
 
 # Middleman
-gem 'middleman', '4.1.10'
+gem 'middleman', '= 4.2.1'
 
 # Middleman Sprockets
 gem "middleman-sprockets", "4.1.0"
