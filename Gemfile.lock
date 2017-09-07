@@ -30,7 +30,6 @@ GEM
     fastimage (2.0.0)
       addressable (~> 2)
     ffi (1.9.14)
-    git-version-bump (0.15.1)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -99,9 +98,8 @@ GEM
       activesupport (>= 3.1)
     parallel (1.9.0)
     puma (3.10.0)
-    rack (1.6.4)
-    rack-contrib (1.4.0)
-      git-version-bump (~> 0.15)
+    rack (1.6.8)
+    rack-contrib (1.6.0)
       rack (~> 1.4)
     rack-livereload (0.3.16)
       rack
@@ -138,7 +136,7 @@ DEPENDENCIES
   middleman-sprockets (= 4.1.0)
   middleman-syntax (= 3.0.0)
   puma (= 3.10.0)
-  rack-contrib (= 1.4.0)
+  rack-contrib (= 1.6.0)
   redcarpet (= 3.3.4)
   slim (= 3.0.7)
   tzinfo-data
