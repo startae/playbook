@@ -20,7 +20,7 @@ gem 'middleman-livereload', '3.4.6'
 gem 'middleman-autoprefixer', '2.7.0'
 
 # Rack Middleware and Utilities
-gem 'rack-contrib', '1.4.0'
+gem 'rack-contrib', '= 1.6.0'
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '0.1.1', platforms: [:mswin, :mingw]
