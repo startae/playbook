@@ -17,7 +17,7 @@ gem "middleman-sprockets", "4.1.0"
 gem 'middleman-livereload', '3.4.6'
 
 # Middleman Autoprefixer
-gem 'middleman-autoprefixer', '2.7.0'
+gem 'middleman-autoprefixer', '= 2.8.0'
 
 # Rack Middleware and Utilities
 gem 'rack-contrib', '1.4.0'
