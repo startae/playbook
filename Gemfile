@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 ruby File.open('.ruby-version', 'rb') { |f| f.read.chomp }
 
 # HTTP server for Ruby/Rack recommended by Heroku
-gem 'puma', '3.4.0'
+gem 'puma', '= 3.10.0'
 
 # Middleman
 gem 'middleman', '4.1.10'
