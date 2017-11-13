@@ -31,4 +31,4 @@ gem 'coffee-script', '~> 2.4', '>= 2.4.1'
 
 # Code syntax highlighting
 gem 'middleman-syntax', '3.0.0'
-gem 'redcarpet', '3.3.4'
+gem 'redcarpet', '3.4.0'
