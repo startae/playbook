@@ -14,7 +14,7 @@ gem 'middleman-sprockets', '~> 4.1'
 gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
 
 # Middleman Autoprefixer
-gem 'middleman-autoprefixer', '~> 2.8'
+gem 'middleman-autoprefixer', '~> 2.9'
 
 # Rack Middleware and Utilities
 gem 'rack-contrib', '~> 1.5'
