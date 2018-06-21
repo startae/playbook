@@ -98,9 +98,9 @@ GEM
     parallel (1.12.1)
     public_suffix (3.0.2)
     puma (3.11.3)
-    rack (1.6.10)
-    rack-contrib (1.8.0)
-      rack (~> 1.4)
+    rack (2.0.5)
+    rack-contrib (2.0.1)
+      rack (~> 2.0)
     rack-livereload (0.3.16)
       rack
     rb-fsevent (0.10.2)
@@ -136,7 +136,7 @@ DEPENDENCIES
   middleman-sprockets (~> 4.1)
   middleman-syntax (= 3.0.0)
   puma (~> 3.11)
-  rack-contrib (~> 1.5)
+  rack-contrib (~> 2.0)
   redcarpet (= 3.4.0)
   slim (~> 3.0, >= 3.0.8)
   tzinfo-data
