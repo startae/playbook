@@ -26,7 +26,7 @@ gem 'wdm', '0.1.1', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 # Precompilers
-gem 'slim', '~> 3.0', '>= 3.0.8'
+gem 'slim', '~> 4.0'
 gem 'coffee-script', '~> 2.4', '>= 2.4.1'
 
 # Code syntax highlighting
