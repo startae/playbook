@@ -30,5 +30,5 @@ gem 'slim', '~> 3.0', '>= 3.0.8'
 gem 'coffee-script', '~> 2.4', '>= 2.4.1'
 
 # Code syntax highlighting
-gem 'middleman-syntax', '3.0.0'
+gem 'middleman-syntax', '3.2.0'
 gem 'redcarpet', '3.4.0'
