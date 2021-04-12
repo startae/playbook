@@ -11,7 +11,7 @@ gem 'middleman', '~> 4.2', '>= 4.2.1'
 gem 'middleman-sprockets', '~> 4.1'
 
 # Middleman LiveReload
-gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
+gem 'middleman-livereload', '~> 3.4'
 
 # Middleman Autoprefixer
 gem 'middleman-autoprefixer', '~> 2.9'
